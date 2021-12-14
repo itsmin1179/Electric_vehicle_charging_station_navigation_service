@@ -4,7 +4,7 @@ This project is a service that receives data from electric vehicle charging stat
 
 To use this code, you have to receive the service key about data api and googlemap api
 
-> reference data
+> ##### reference data
 >
 > https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15000297
 >
@@ -14,13 +14,13 @@ To use this code, you have to receive the service key about data api and googlem
 
 
 
-You need to fix the following before running your code:
+#### You need to fix the following before running your code:
 
 + Enter the service key you received after applying for data utilization at the public data portal.
 + Enter your location key after applying for use of Google Maps API.
 
 
-This code includes the following features:
+#### This code includes the following features:
 
 + Get the current location coordinates using the Google Maps api.
 + Of the data received through the api, only the name of the charging station, whether or not the charger is used, and location information are used.
@@ -42,7 +42,9 @@ This code includes the following features:
 
 ![KakaoTalk_20210616_172048](https://user-images.githubusercontent.com/60971835/146016219-0d5574b9-6a1a-44c6-bda6-c9a22ec423ef.png)
 
-The picture on the left is when both the current location and destination are set in Korea, and the picture on the right is when coordinates in other countries are set. In Korea, the route visualization function provided by Google Maps cannot be used due to the map export regulations, so even if you set the destination as in the picture on the left, you can see the route is not set. To solve this, it is necessary to use Naver or Kakao API instead of Google Maps API.
+> The picture on the left is when both the current location and destination are set in Korea, and the picture on the right is when coordinates in other countries are set. In Korea, the route visualization function provided by Google Maps cannot be used due to the map export regulations, so even if you set the destination as in the picture on the left, you can see the route is not set. To solve this, it is necessary to use Naver or Kakao API instead of Google Maps API.
 
 
+![KakaoTalk_20210616_172034 (1)](https://user-images.githubusercontent.com/60971835/146018833-596c455b-79af-49b3-ad55-8078e5361f64.png)
 
+> This photo is when the Kakao Map api is used. In this case, it is impossible to use the direct data because it provides a url scheme for landing with Kakao Map instead of the route api data. If you want to develop a program using Korea's map data, Naver api supports route data, so please use it.
