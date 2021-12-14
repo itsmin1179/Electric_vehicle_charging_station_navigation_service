@@ -40,5 +40,9 @@ This code includes the following features:
 ---
 ### result of execution
 
+![KakaoTalk_20210616_172048](https://user-images.githubusercontent.com/60971835/146016219-0d5574b9-6a1a-44c6-bda6-c9a22ec423ef.png)
+
+The picture on the left is when both the current location and destination are set in Korea, and the picture on the right is when coordinates in other countries are set. In Korea, the route visualization function provided by Google Maps cannot be used due to the map export regulations, so even if you set the destination as in the picture on the left, you can see the route is not set. To solve this, it is necessary to use Naver or Kakao API instead of Google Maps API.
+
 
 
